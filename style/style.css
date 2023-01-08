@@ -44,7 +44,7 @@ nav {
   font-size: 16px;
 }
 .banner {
-  background: url('images/banner/banner1.png');
+  background: url("../images/banner/banner1.png");
   display: flex;
   background-size: cover;
   background-repeat: no-repeat;
@@ -89,8 +89,6 @@ nav {
   margin-top: 131px;
   align-items: center;
   justify-content: center;
-}
-.lady {
 }
 .lady img {
   width: 500px;
@@ -166,7 +164,7 @@ nav {
       #f15b22 0%,
       rgba(241, 91, 34, 0) 100%
     ),
-    url('images/watch.png');
+    url("../images/watch.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1140px;
@@ -254,6 +252,6 @@ footer {
   color: #f15b22;
   font-weight: 600;
 }
-.social{
+.social {
   margin-top: 32px;
 }
