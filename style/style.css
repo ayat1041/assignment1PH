@@ -1,0 +1,259 @@
+* {
+  margin: 0 0;
+  font-family: "Work Sans", sans-serif;
+}
+nav {
+  display: flex;
+  width: 100vw;
+  max-width: 100%;
+  height: 60px;
+  background-color: orangered;
+  box-shadow: 4px 0px 4px;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  margin-left: 60px;
+  font-weight: bolder;
+}
+.title .assignment {
+  color: yellow;
+}
+.title .one {
+  color: white;
+  font-size: 16px;
+}
+.nav_options {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  color: white;
+}
+.nav_options li {
+  list-style: none;
+  margin-left: 12px;
+}
+.nav_options li button {
+  border: none;
+  padding: 8px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(43, 43, 43);
+  box-shadow: 1px 1px 4px rgb(26, 26, 26);
+  color: white;
+  font-size: 16px;
+}
+.banner {
+  background: url("/images/banner/banner1.png");
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  max-width: 100%;
+  height: 808px;
+  justify-content: flex-end;
+}
+.texts {
+  margin-top: 216px;
+  display: flex;
+  flex-direction: column;
+  width: 525px;
+  height: max-content;
+  align-items: flex-end;
+  margin-right: 130px;
+}
+.description {
+  font-size: 16px;
+  margin-top: 24px;
+  text-align: end;
+  color: #444343;
+}
+.first_headline {
+  text-align: end;
+  width: 300px;
+  color: #151414;
+}
+.texts button {
+  width: 160px;
+  height: 64px;
+  background-color: #f15b22;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 32px;
+  font-size: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.first_section {
+  display: flex;
+  margin-top: 131px;
+  align-items: center;
+  justify-content: center;
+}
+.lady {
+}
+.lady img {
+  width: 500px;
+}
+.lady_lists {
+  width: 416px;
+  margin-left: 36px;
+}
+.lady_lists h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.lady_lists p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.failures li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.fa-solid {
+  color: green;
+}
+.failures {
+  padding: 0 0;
+  margin-top: 16px;
+}
+.second_section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  /* background-color: green; */
+  padding: 42px 0;
+  gap: 50px;
+  margin-bottom: 46px;
+}
+.my_plans {
+  text-align: center;
+  font-size: 26px;
+}
+.my_plans_detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+}
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.third_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* background-color: purple; */
+  margin-bottom: 130px;
+}
+.gradient_container {
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("/images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1140px;
+  height: 300px;
+  padding-left: 64px;
+  padding-top: 59px;
+}
+.gradient_container h1 {
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+}
+.gradient_container button {
+  font-size: 20px;
+  width: 160px;
+  height: 64px;
+  background-color: #ffffff;
+  color: #f15b22;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  margin-top: 24px;
+}
+footer {
+  width: 100vw;
+  max-width: 100%;
+  height: 577px;
+  background: #151414;
+}
+.future {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.future_head {
+  display: flex;
+  flex-direction: column;
+  width: 485px;
+  color: white;
+  margin-top: 130px;
+  margin-left: 230px;
+}
+.future_head h1 {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+.future_head p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  margin-right: 229px;
+  margin-top: 130px;
+}
+.subscribe h2 {
+  font-size: 25px;
+  margin-bottom: 31px;
+  color: white;
+}
+.subscribe input {
+  background: #151414;
+  font-size: 18px;
+  width: 325px;
+  height: 64px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  color: white;
+  padding-left: 21px;
+}
+.subscribe button {
+  width: 170px;
+  height: 64px;
+  border-radius: 6px;
+  margin-top: 16px;
+  font-size: 20px;
+  color: #f15b22;
+  font-weight: 600;
+}
+.social{
+  margin-top: 32px;
+}
